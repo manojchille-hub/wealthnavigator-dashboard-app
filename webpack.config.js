@@ -4,13 +4,15 @@ const {
 } = require('@angular-architects/module-federation/webpack');
 
 module.exports = withModuleFederationPlugin({
-  name: 'wealthnavigator-dashboard-app',
+
+  name: "dashboard",
 
   exposes: {
-    './Component': './src\app\app.ts',
+    './Routes': './src/app/app.routes.ts',
   },
 
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
   },
+
 });

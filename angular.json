@@ -30,14 +30,7 @@
                 "output": "."
               }
             ],
-            "styles": ["src/styles.scss"],
-            "outputMode": "server",
-            "security": {
-              "allowedHosts": []
-            },
-            "ssr": {
-              "entry": "src/server.ts"
-            },
+            "styles": ["src/styles.scss"],  
             "main": "src/main.ts",
             "outputPath": "dist/wealthnavigator-dashboard-app",
             "index": "src\\index.html",

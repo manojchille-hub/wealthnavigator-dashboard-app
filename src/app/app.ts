@@ -9,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('wealthnavigator-dashboard-app');
+  netWorth = 2280000
+ investment = 1950000
+ currentValue = 2280000
+ pnl = 330000
 }
